@@ -46,7 +46,7 @@ requirements = {
         "dataclasses",
         "pyopenjtalk",
     ],
-    "setup": ["numpy", "pytest-runner",],
+    "setup": ["numpy=1.19.2", "pytest-runner",],
     "test": [
         "pytest>=3.3.0",
         "hacking>=1.1.0",
